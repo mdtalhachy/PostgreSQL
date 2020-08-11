@@ -1,4 +1,7 @@
 # PostgreSQL
+
+<img src="imageholder/postgresLogo.jpeg" width="500" height="250">
+
 # Installing postgreSQL on Windows
 
 In this guide, we're gonna install postgres on Windows and try running some helpful commands

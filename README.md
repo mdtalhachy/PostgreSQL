@@ -35,3 +35,21 @@ When the prompt asks for a password, enter one you can easily remember (which wi
 Keep pressing Next until you reach this prompt, uncheck the box and finish installation
 
 ![](imageholder/unchecklast.PNG)
+
+# Quick Run
+
+Now that postgres is installed in your system, go to the search bar at the bottom of the screen and type psql and drag the matching icon to desktop. Then do the same for pgadmin.
+
+Now you're all set to run postgres. 
+
+Double click on SQL shell you dragged earlier to your desktop. A cmd-like prompt will open. 
+
+![](imageholder/shellstep1.PNG)
+
+Keep pressing `Enter` until the prompt asks for a password.
+
+![](imageholder/shellstep2.PNG)
+
+Now enter the password you gave during installation. Once you've done that, you're all set to run Postgres commands. 
+
+![](imageholder/shellstep3.PNG)

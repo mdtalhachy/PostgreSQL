@@ -11,8 +11,7 @@ In this guide, we're gonna install postgres on Windows and try running some help
 * What is PostgreSQL
 * Installing PostgreSQL on Windows
 * Quick Run
-* Helpful Commands
-* Common Problems
+* Common Issues with Windows Users 
 
 # What is PostgreSQL
 
@@ -53,3 +52,8 @@ Keep pressing `Enter` until the prompt asks for a password.
 Now enter the password you gave during installation. Once you've done that, you're all set to run Postgres commands. 
 
 ![](imageholder/shellstep3.PNG)
+
+# Common Issues with Windows Users
+
+If you try to import a file using file location on windows like this `\i D:\somefile.sql` you won't likely be able to do it. 
+You can fix this issue with a slight change like this `\i 'D:\somefile.sql'` 
